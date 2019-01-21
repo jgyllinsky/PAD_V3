@@ -1,0 +1,27 @@
+<FrameLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+
+
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Sample Text"
+        android:textSize="30dp"
+        android:textColor="@color/color_tertiary"
+        android:textAlignment="center"
+        android:translationZ="30dp" />
+
+    <WebView android:id="@+id/webview_daily_exercise"
+
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"/>
+
+</FrameLayout>
+
+    <!--android:elevation="8dp"-->
+    <!--android:background="@drawable/card_frame_pressed"-->

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_marginTop="?attr/actionBarSize"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_primary"
+    android:id="@+id/exercise_history_root"
+    tools:context="com.stepmonitor.fragments.NavViewFragments.WeeklyExerciseHistoryFragment">
+
+    <LinearLayout
+        android:id="@+id/linear_layout_exercise_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="7"
+
+        android:orientation="vertical">
+
+        <include
+            layout="@layout/fragment_daily_exercise_select"
+            android:id="@+id/webview_container1"
+
+            android:layout_height="0dp"
+            android:layout_width="fill_parent"
+
+            android:layout_weight="1"/>
+        <include
+            layout="@layout/fragment_daily_exercise_select"
+            android:id="@+id/webview_container2"
+
+            android:layout_height="0dp"
+            android:layout_width="fill_parent"
+
+            android:layout_weight="1"/>
+        <include
+            layout="@layout/fragment_daily_exercise_select"
+            android:id="@+id/webview_container3"
+
+            android:layout_height="0dp"
+            android:layout_width="fill_parent"
+
+            android:layout_weight="1"/>
+        <include
+            layout="@layout/fragment_daily_exercise_select"
+            android:id="@+id/webview_container4"
+
+            android:layout_height="0dp"
+            android:layout_width="fill_parent"
+
+            android:layout_weight="1"/>
+        <include
+            layout="@layout/fragment_daily_exercise_select"
+            android:id="@+id/webview_container5"
+
+            android:layout_height="0dp"
+            android:layout_width="fill_parent"
+
+            android:layout_weight="1"/>
+        <include
+            layout="@layout/fragment_daily_exercise_select"
+            android:id="@+id/webview_container6"
+
+            android:layout_height="0dp"
+            android:layout_width="fill_parent"
+
+            android:layout_weight="1"/>
+        <include
+            layout="@layout/fragment_daily_exercise_select"
+            android:id="@+id/webview_container7"
+
+            android:layout_height="0dp"
+            android:layout_width="fill_parent"
+
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+</FrameLayout>

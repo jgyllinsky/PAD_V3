@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:key="pref_key_user_settings"
+        android:title="User Attributes">
+        <com.stepmonitor.preferences.DistanceEditTextPreference
+            style="@style/AppPreference.DialogPreference"
+            android:id="@+id/pref_height"
+            android:key="pref_key_user_height"
+            android:summary="Please enter your height in meters."
+            android:title="Height"
+            android:defaultValue="1.8"/>
+        <com.stepmonitor.preferences.TimerEditTextPreference
+            style="@style/AppPreference.DialogPreference"
+            android:id="@+id/pref_duration"
+            android:key="pref_key_exercise_duration"
+            android:summary="Please enter the duration you would like to conduct your exercise for."
+            android:title="Exercise Duration"
+            android:defaultValue="1"/>
+        <com.stepmonitor.preferences.TimerEditTextPreference
+            style="@style/AppPreference.DialogPreference"
+            android:id="@+id/pref_delay"
+            android:key="pref_key_exercise_delay"
+            android:summary="Please enter the amount of time that an exercise should be delayed for."
+            android:title="Exercise Delay"
+            android:defaultValue="1" />
+        <com.stepmonitor.preferences.TimerEditTextPreference
+            style="@style/AppPreference.DialogPreference"
+            android:id="@+id/pref_interval"
+            android:key="pref_key_exercise_interval"
+            android:summary="Please enter the amount of time between exercises."
+            android:title="Exercise Interval"
+            android:defaultValue="60" />
+        <com.stepmonitor.preferences.TimePreferenceStart
+            style="@style/AppPreference.DialogPreference"
+            android:id="@+id/pref_start"
+            android:key="pref_key_exercise_start"
+            android:summary="Please enter the time of day that exercises will start."
+            android:title="Exercise Start Time"
+            android:defaultValue="560"/>
+        <com.stepmonitor.preferences.TimePreferenceEnd
+            style="@style/AppPreference.DialogPreference"
+            android:id="@+id/pref_end"
+            android:key="pref_key_exercise_end"
+            android:summary="Please enter the time of day that exercises will stop."
+            android:title="Exercise End Time"
+            android:defaultValue="1020"/>
+        <EditTextPreference
+            android:id="@+id/pref_steps"
+            android:key="pref_key_target_steps"
+            android:summary="Please enter the total number of steps to achieve every day."
+            android:title="Step Target"
+            android:defaultValue="1020"/>
+    </PreferenceCategory>
+</PreferenceScreen>

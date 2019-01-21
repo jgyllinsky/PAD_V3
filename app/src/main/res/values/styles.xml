@@ -1,0 +1,54 @@
+<resources>
+    <style name="pad_theme" parent="Theme.AppCompat" >
+        <item name="preferenceTheme">@style/preferenceTheme</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:buttonStyle">@style/ButtonColor</item>
+
+        <!--<item name="android:colorPrimary">@color/color_background</item>-->
+        <!--<item name="android:colorPrimaryDark">@color/color_background_secondary</item>-->
+        <!--<item name="android:colorBackground">@color/color_background</item>-->
+
+        <!--<item name="android:editTextColor">@color/color_text</item>-->
+        <!--<item name="android:textColorPrimary">@color/color_text</item>-->
+        <!--<item name="android:textColorSecondary">@color/color_text</item>-->
+        <!--<item name="android:textColorTertiary">@color/color_text</item>-->
+        <!--<item name="android:textColorPrimaryInverse">@color/color_text</item>-->
+        <!--<item name="android:textColorSecondaryInverse">@color/color_text</item>-->
+        <!--<item name="android:textColorTertiaryInverse">@color/color_text</item>-->
+
+        <!--<item name="android:colorAccent">@color/color_background</item>-->
+        <!--<item name="android:colorButtonNormal">@color/color_background_secondary</item>-->
+
+        <!--<item name="colorBackgroundFloating">@color/color_background</item>-->
+        <!--<item name="colorAccent">@color/color_background_secondary</item>-->
+
+    </style>
+
+    <style name="ButtonColor" parent="@style/Widget.AppCompat.Button" >
+        <!--<item name="android:textColor">@color/color_background</item>-->
+    </style>
+
+    <!--This styles the preference selection screen, not the dialogs -->
+    <style name="preferenceTheme" parent="@style/PreferenceThemeOverlay">
+        <!--<item name="android:textColorPrimary">@color/color_text</item>-->
+        <!--<item name="android:textColorSecondary">@color/color_text</item>-->
+    </style>
+
+    <!-- Style for a custom Preference Entry -->
+    <style name="AppPreference" parent="@style/Preference">
+        <!--<item name="android:layout">@layout/preference_material</item>-->
+    </style>
+
+    <!-- Style for a DialogPreference Entry -->
+    <style name="AppPreference.DialogPreference">
+        <item name="positiveButtonText">@android:string/ok</item>
+        <item name="negativeButtonText">@android:string/cancel</item>
+    </style>
+
+    <style name="AppAlertDialogContent" parent="Theme.AppCompat.DayNight">
+        <!-- To tint EditText and TimePicker -->
+        <!--<item name="colorAccent">@color/color_background</item>-->
+    </style>
+
+</resources>
