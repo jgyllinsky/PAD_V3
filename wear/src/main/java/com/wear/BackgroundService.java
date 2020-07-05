@@ -188,6 +188,7 @@ public class BackgroundService extends JobIntentService implements
 
             activityIntent = new Intent(context,cls);
             activityIntent.putExtra(EXTRA_DATA,map.getBundle(TAG_ACTIVITY_DATA));
+            activityIntent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
             context.startActivity(activityIntent);
         }
     }
