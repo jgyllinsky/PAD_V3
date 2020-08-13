@@ -10,7 +10,7 @@
         android:id="@+id/textView11"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="112dp"
+        android:layout_marginTop="160dp"
         android:text="Please create an account."
         android:textColor="@color/color_tertiary"
         android:textSize="30sp"
@@ -91,4 +91,17 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editText5"
         tools:visibility="visible" />
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar7"
+        android:layout_width="427dp"
+        android:layout_height="93dp"
+        android:background="@color/color_secondary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:title="Thank you for using PAD Exercise Tracker!"
+        app:titleMarginStart="10dp" />
 </android.support.constraint.ConstraintLayout>

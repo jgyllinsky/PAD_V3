@@ -3,87 +3,97 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@color/color_primary">
 
     <Button
-        android:id="@+id/button7"
-        style="@android:style/Widget.Button.Toggle"
-        android:layout_width="231dp"
-        android:layout_height="53dp"
-        android:layout_marginStart="120dp"
-        android:layout_marginTop="30dp"
-        android:text="Notifications"
+        android:id="@+id/button32"
+        android:layout_width="268dp"
+        android:layout_height="58dp"
+        android:text="NOTIFICATIONS"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button6" />
+        app:layout_constraintTop_toBottomOf="@+id/button31"
+        app:layout_constraintVertical_bias="0.075" />
 
     <Button
-        android:id="@+id/button5"
-        style="@android:style/Widget.Button.Toggle"
-        android:layout_width="231dp"
-        android:layout_height="53dp"
-        android:layout_marginStart="120dp"
-        android:layout_marginTop="30dp"
-        android:text="Account Info"
+        android:id="@+id/button31"
+        android:layout_width="268dp"
+        android:layout_height="58dp"
+        android:text="EXERCISE INFO"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button2" />
+        app:layout_constraintTop_toBottomOf="@+id/button30"
+        app:layout_constraintVertical_bias="0.069" />
 
     <Button
-        android:id="@+id/button6"
-        style="@android:style/Widget.Button.Toggle"
-        android:layout_width="231dp"
-        android:layout_height="53dp"
-        android:layout_marginStart="120dp"
-        android:layout_marginTop="30dp"
-        android:text="Exercise Info"
+        android:id="@+id/button30"
+        android:layout_width="268dp"
+        android:layout_height="58dp"
+        android:text="ACCOUNT INFO"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button5" />
+        app:layout_constraintTop_toBottomOf="@+id/button29"
+        app:layout_constraintVertical_bias="0.043" />
 
     <Button
-        android:id="@+id/button2"
-        style="@android:style/Widget.Button.Toggle"
-        android:layout_width="231dp"
-        android:layout_height="53dp"
-        android:layout_marginStart="120dp"
-        android:layout_marginTop="90dp"
-        android:text="Personal Info"
+        android:id="@+id/button29"
+        android:layout_width="268dp"
+        android:layout_height="58dp"
+        android:text="PERSONAL INFO"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/toolbar2" />
+        app:layout_constraintTop_toBottomOf="@+id/toolbar2"
+        app:layout_constraintVertical_bias="0.133" />
 
     <Button
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
         android:text="Home"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="7dp" />
+        app:layout_constraintStart_toStartOf="@+id/toolbar2"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/button4"
         style="@android:style/Widget.Material.Light.Button.Toggle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Help"
-        tools:layout_editor_absoluteX="307dp"
-        tools:layout_editor_absoluteY="7dp" />
+        android:layout_marginTop="44dp"
+        android:text="HELP"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <android.support.v7.widget.Toolbar
         android:id="@+id/toolbar2"
-        android:layout_width="409dp"
-        android:layout_height="63dp"
+        android:layout_width="422dp"
+        android:layout_height="102dp"
         android:background="@color/color_secondary"
         android:minHeight="?attr/actionBarSize"
         android:theme="?attr/actionBarTheme"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.363"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:titleMarginStart="150" />
+        app:title="Settings"
+        app:titleMarginStart="165dp"
+        app:titleTextAppearance="@style/TextAppearance.AppCompat.Large" />
 
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Settings"
-        android:textAppearance="@style/TextAppearance.AppCompat.Large"
-        tools:layout_editor_absoluteX="165dp"
-        tools:layout_editor_absoluteY="16dp" />
 </android.support.constraint.ConstraintLayout>
