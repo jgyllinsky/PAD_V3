@@ -52,7 +52,7 @@
         android:layout_marginTop="76dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="First & Last Name"
+        android:text="First and Last Name"
         android:textColor="@color/color_tertiary"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
